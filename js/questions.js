@@ -47,19 +47,19 @@ let questions = [
     {
         numb: 5,
         question: "The dimensions of G'g are:",
-        answer: "M L1 T-2",
+        answer: "ML1T-2",
         options: [
-            "M-1 L2 T2",
-            "M L1 T-2",
-            "M-1 L2 T",
-            "M1 L2 T2",
+            "M-1L2T2",
+            "ML1T-2",
+            "M-1L2T",
+            "M1L2T2",
         ]
     },
     {
         numb: 6,
-        question: "The magnitude of resulantant of two forces of magnitudes 2N and 10N cannot be:",
+        question: "The magnitude of resulantant of two forces a=of magnitudes 2N and 10N cannot be:",
         answer: "4N",
-         options: [
+        options: [
             "6N",
             "5N",
             "4N",
@@ -68,7 +68,7 @@ let questions = [
     },
     {
         numb: 7,
-        question: "If a body moves in a circle, then the angle subtented at the centre of circle by as are equals to twice of it's radius will be: ",
+        question: "If a body moves in a circle, then the angle subtented at tge centre of circle by as are equals to twice of it's radius will be: ",
         answer: "114.6`",
         options: [
             "2`",
@@ -256,7 +256,7 @@ let questions = [
     {
         numb: 24,
         question: "An object is falling through a viscous fluid with terminal velocity.It's velocity",
-        answer: "remains constant",
+        answer: "remain constant",
         options: [
             "is decreasing",
             "is increasing",
@@ -333,12 +333,12 @@ let questions = [
     {
         numb: 31,
         question: "The dimensions of angular velocity are",
-        answer: "M L T-1",
+        answer: "MLT-1",
         options: [
-            "M L T-1",
-            "M0 L T-1",
-            "M L-1 T",
-            "M L T-2",
+            "MLT-1",
+            "M0LT-1",
+            "ML-1T",
+            "MLT-2",
         ]
     },
     {
@@ -564,12 +564,12 @@ let questions = [
     {
         numb: 52,
         question: "The dimensions of G are:",
-        answer: "M-1 L3 T2",
+        answer: "M-1L3T2",
         options: [
-            "M-1 L3 T2",
-            "M L2 T1",
-            "M2 L2 T2",
-            "M L T-2",
+            "M-1L3T2",
+            "ML2T1",
+            "M2L2T2",
+            "MLT-2",
         ]
     },
     {
@@ -610,7 +610,7 @@ let questions = [
         question: "The range of audible sound is:",
         answer: "20Hz-20000Hz",
         options: [
-            "20Hz-20000Hz",
+            "20HZ-20000HZ",
             "2100Hz-240000Hz",
             "25000Hz-500000Hz",
             "1Hz-5Hz",
@@ -688,7 +688,7 @@ let questions = [
         answer: "Ibn-Al Haitham",
         options: [
             "Al Razi",
-            "Ibn-Al Haitham",
+            "Ibn-Al Haithm",
             "Abu-Rehan Al Beruni",
             "Jabir bin Hayyan",
         ]
@@ -1069,7 +1069,7 @@ let questions = [
     {
         numb: 98,
         question: "The S.I unit of intensity level of sound is:",
-        answer: "sone",
+        answer: "spne",
         options: [
             "watt",
             "sone",
