@@ -172,7 +172,7 @@ let questions = [
         options: [
             "Average acceleration",
             "Acceleration",
-            "Intantaneous acceleration",
+            "Instantaneous acceleration",
             "Constant acceleration",
         ]
     },
@@ -256,7 +256,7 @@ let questions = [
     {
         numb: 24,
         question: "An object is falling through a viscous fluid with terminal velocity.It's velocity",
-        answer: "remain constant",
+        answer: "remains constant",
         options: [
             "is decreasing",
             "is increasing",
