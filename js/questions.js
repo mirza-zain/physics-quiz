@@ -579,7 +579,7 @@ let questions = [
         options: [
             "in the direction of velocity",
             "perpendicular to the direction of velocity",
-            "opposite to the direction of velocity ",
+            "opposite to the direction of velocity",
             "60` to the direction of velocity",
         ]
     },
