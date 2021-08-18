@@ -1,47 +1,15 @@
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-    margin:0;
-    padding:0;
+    margin:initial;
+    padding:0px ;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif; 
 }
 
 body{
     background: #007bff;
-    position: initial;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.menu a {
-    padding: 8px;
-    margin-top: 7px;
-    display: block;
-    width: 100%;
-}
-
-.main {
-    float: left;
-    width: 60%;
-    padding: 0 20px;
-}
-
-.right {
-    float: left;
-    width: 20%;
-    padding: 15px;
-    margin-top: 7px;
-    text-align: center;
-}
-
-@media only screen and (max-width: 620px) {
-    /* for mobile phones */
-    .menu, .main, .right {
-        width: 100%;
-    }
+    position:absolute;
 }
 
 .start_btn,
