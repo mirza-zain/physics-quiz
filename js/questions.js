@@ -47,10 +47,10 @@ let questions = [
     {
         numb: 5,
         question: "The dimensions of G'g are:",
-        answer: "M L1 T-2",
+        answer: "M1 L2 T",
         options: [
             "M-1 L2 T2",
-            "M L1 T-2",
+            "M1 L2 T",
             "M-1 L2 T",
             "M1 L2 T2",
         ]
