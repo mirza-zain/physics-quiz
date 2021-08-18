@@ -12,6 +12,38 @@ body{
     position: initial;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.menu a {
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.right {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+    /* for mobile phones */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
+
 .start_btn,
 .info_box,
 .quiz_box,
@@ -48,7 +80,7 @@ transform: translate(-50%, -50%) scale(1);
 }
 
 .info_box{
-    width: 540px;
+    width: 450px;
     background: #fff;
     border-radius: 5px;
     opacity: 0;
@@ -63,17 +95,17 @@ transform: translate(-50%, -50%) scale(1);
     display: flex;
     align-items: center;
     padding: 0 30px;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .info_box .info_list{
-    padding: 15px 35px;
+    padding: 15px 25px;
 }
 
 .info_box .info_list .info{
     margin: 5px 0;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .info_box .info_list .info span{
